@@ -1,0 +1,29 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  height: 100%;
+  margin: 0;
+}
+
+#gl-map {
+  flex: 1;
+}
+
+#ol-map {
+  flex: 1;
+}
+
+@media only screen and (max-width: 600px) {
+  .App {
+    flex-direction: column;
+  }
+}
